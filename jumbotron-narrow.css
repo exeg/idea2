@@ -2,7 +2,7 @@
 body {
   padding-top: 10px;
   padding-bottom: 20px;
-  
+  background-color: white;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views #f6b319 #951C49 */
@@ -20,7 +20,11 @@ body {
 
 }
 .navbar-fixed-top .nav > li >a {
- color: #F7786B;
+  color: #F7786B;
+  font-style: italic;
+  font-size: larger;
+  font-weight: 600;
+  font-family: sans-serif;
 
 }
 .navbar-fixed-top .nav > li >a:hover,
@@ -54,6 +58,8 @@ color: white;
   margin-top: 0;
   margin-bottom: 0;
   color: #F7786B;
+  font-size: larger;
+  font-weight: 600;
 }
 
 /* Custom page footer */
@@ -98,6 +104,78 @@ color: white;
   background-color: #eaece3;
 }
 */
+/*.nav-sidebar { 
+    width: 100%;
+    padding: 8px 0; 
+    border-right: 1px solid #ddd;
+}
+
+.nav-sidebar h4 {
+
+  font-size: 20px
+  border: solid 1px #cccccc;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 1px;
+}
+*/
+
+
+
+#navigation {
+
+width:150px;
+padding: 8px;
+}
+
+#navigation ul {margin:0px; padding:0px;}
+#navigation li {list-style: none;} 
+
+ul.top-level {background:#fff;}
+ul.top-level li {
+margin: 0 0 3px 0;
+
+}
+
+#navigation a {
+    color: #6D6D6D;
+    cursor: pointer;
+    display: block;
+    font-size: large;
+    font-style: inherit;
+    font-family: tahoma;
+    font-stretch: initial;
+}
+#navigation a:hover{
+text-decoration:none;
+}
+
+
+
+#navigation li:hover {
+background: #EFEFEF;
+position: relative;
+}
+
+
+
+.nav-sidebar h4 {
+
+  font-size: 20px
+  
+}
+
+
+/* Right-aligned sidebar 
+.nav-sidebar.pull-right { 
+    border-right: 0; 
+    border-left: 1px solid #ddd; 
+}
+.nav-sidebar.pull-right a {
+    -webkit-border-radius: 0 4px 4px 0; 
+    -moz-border-radius: 0 4px 4px 0; 
+    border-radius: 0 4px 4px 0; 
+}*/
 
 /* Supporting marketing content */
 .marketing {

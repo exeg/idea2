@@ -1,7 +1,6 @@
 /* Space out content a bit */
 body {
   padding-top: 10px;
-  padding-bottom: 20px;
   background-color: white;
 }
 
@@ -161,15 +160,45 @@ position: relative;
 
 .nav-sidebar h4 {
 
-  font-size: 20px
+  font-size: 20px;
+  color: #F7786B;
   
+  font-weight: 600;
 }
 
+.row-footer {
+
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #AfAfAf;
+}
+
+.row-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
 
 /* Right-aligned sidebar 
 .nav-sidebar.pull-right { 
     border-right: 0; 
-    border-left: 1px solid #ddd; 
+    border-left: 1px solid #ddd;
+    #222 
 }
 .nav-sidebar.pull-right a {
     -webkit-border-radius: 0 4px 4px 0; 

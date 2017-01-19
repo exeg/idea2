@@ -1,0 +1,83 @@
+			
+	Application Design and Software Structure Report
+
+      Best Free Books
+
+  1. Introduction
+
+  The site that refers to the recognized books or books of new authors who
+want to advertise themselves. The site on which the user can find a book
+from the category he wants and can search for book he wants.
+This site can have mobile application that reference the same database.
+Mobile application can inform user about new books that are available.
+Each book have rating system with reviews, links to publisher, image,
+description, author information.
+Users can rate books and post comments on books.	
+
+  There is list of categories. There is rating for each book. There is
+author information for each book.
+Admin user can post new links to books with pictures and description.
+Admin user can post author information. Admin user can delete old links.
+Admin user can edit book information.
+Ordinary users can post comments to the books they want. Also ordinary
+users can rate book.
+
+  2. Design and Implementation
+  2.1 The REST API Specification
+
+  With the help of the Loopback and Swagger services I have designed RestAPI for this project.
+
+  As you can see on the screenshot all models are defined and all RestAPI operations are supported.
+I used "Has Many" and "Belong To" relation types.  
+Also I designed yaml file which you can import or upload to Swagger to explore my RestApi.
+Please see links bellow for screenshot and yaml file:
+
+https://exeg.github.io/idea2/swagger_restAPI.jpg
+https://exeg.github.io/idea2/loopback\freebooks\test.yml
+
+ 2.2 Front-end Architecture Design
+
+I want to make interface where user can simply find the book he want with the
+help of search system or categories menu. 
+
+Basic concept of UI implemented in these mocks:
+https://exeg.github.io/idea2/index.html
+https://exeg.github.io/idea2/book.html
+
+Navigation structure consists of primary menu and secondary menu.
+Primary menu consists of general information, contact information and general
+content of the catalog.
+Secondary menu will consist mainly of book genres.
+Please see my work flow diagram:
+https://exeg.github.io/idea2/flow.png
+
+  2.3 Database Schemas, Design and Structure
+
+ I have provided json files which represent schema and model relations from strongloop for my main models.
+
+https://exeg.github.io/idea2/author.json
+https://exeg.github.io/idea2/book.json
+https://exeg.github.io/idea2/category.json
+https://exeg.github.io/idea2/comment.json
+
+
+ 2.4 Communication
+
+Loopback framework comunicate with MongoDB connector to extract data.
+Front-End Application and Ionic mobile application comunicate with RestApi.
+
+3. Conclusions
+
+I am expecting to get fast and nice looking responsive design on my Web Application. 
+I also expect to create nice ionic application and node.js server side application.
+
+4. References
+
+https://strongloop.com/
+https://loopback.io/
+http://brianyang.com/generating-swagger-openapi-specification-from-your-loopback-application/
+http://swagger.io/
+https://exeg.github.io/idea2/
+
+
+

@@ -33,7 +33,7 @@
     "public": false
   },
   "category": {
-    "dataSource": "newDatasource",
+    "dataSource": "db",
     "public": true,
     "$promise": {},
     "$resolved": true
